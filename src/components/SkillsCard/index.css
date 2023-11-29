@@ -1,0 +1,32 @@
+.skills-item-container {
+  display: flex;
+
+  list-style-type: none;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.skill-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.skill-image {
+  width: 30px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-item-container {
+    max-width: 600px;
+  }
+  .skills-container {
+    margin-right: 56px;
+  }
+}
